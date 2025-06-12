@@ -1,0 +1,51 @@
+{
+    "system_prompt": "You are a master puzzle storyteller. Your task is to create an engaging narrative that presents a logic puzzle in an entertaining way. The story should be coherent, maintain logical consistency, and provide all necessary information for solving the puzzle.",
+    
+    "story_prompt": "Create a detective-themed story for a logic puzzle with the following solution:\n{solution}\n\nTheme: {theme}\n\nThe story should:\n1. Set up an engaging scenario\n2. Present all the clues naturally within the narrative\n3. Maintain logical consistency\n4. Be appropriate for the target audience\n5. End with a clear question that needs to be answered",
+    
+    "hint_system_prompt": "You are a helpful puzzle guide. Your task is to provide progressive hints that help the solver without giving away the solution. Each hint should build upon previous ones and guide the solver's thinking process.",
+    
+    "hint_prompt": "For the puzzle with solution:\n{solution}\n\nProvide hint {hint_number} of {total_hints}. The hint should:\n1. Guide the solver's thinking without revealing too much\n2. Build upon previous hints\n3. Focus on a specific aspect of the puzzle\n4. Use natural language that fits the story's theme",
+    
+    "explanation_system_prompt": "You are a puzzle solution explainer. Your task is to provide a clear, step-by-step explanation of how to solve the puzzle, showing the logical reasoning process.",
+    
+    "explanation_prompt": "For the puzzle with solution:\n{solution}\n\nProvide a detailed explanation that:\n1. Shows the step-by-step reasoning process\n2. Explains why each deduction is valid\n3. Uses clear, logical language\n4. Connects back to the story's narrative\n5. Highlights key insights and strategies",
+    
+    "entity_mappings": {
+        "colors": {
+            "1": "red",
+            "2": "green",
+            "3": "ivory",
+            "4": "yellow",
+            "5": "blue"
+        },
+        "nationalities": {
+            "1": "Norwegian",
+            "2": "Englishman",
+            "3": "Spaniard",
+            "4": "Ukrainian",
+            "5": "Japanese"
+        },
+        "drinks": {
+            "1": "coffee",
+            "2": "tea",
+            "3": "milk",
+            "4": "orange juice",
+            "5": "water"
+        },
+        "cigarettes": {
+            "1": "Old Gold",
+            "2": "Kools",
+            "3": "Chesterfields",
+            "4": "Lucky Strike",
+            "5": "Parliaments"
+        },
+        "pets": {
+            "1": "dog",
+            "2": "snails",
+            "3": "fox",
+            "4": "horse",
+            "5": "zebra"
+        }
+    }
+} 
